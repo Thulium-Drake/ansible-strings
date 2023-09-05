@@ -70,7 +70,7 @@ In this example, the `defaults/main.yml` file contains special comment tags that
 
 ## Explanation of Tags
 
-- `@ansible_strings`: `Marks the defaults/main.yml` as compatible with this script.
+- `@ansible_strings`: Marks the `defaults/main.yml` as compatible with this script.
 
 - `@title`: Specifies the title of the Ansible Role.
 
@@ -92,7 +92,7 @@ In this example, the `defaults/main.yml` file contains special comment tags that
   ```
   # @description
   # This Ansible Role is an example of how to use the @description tag.
-  # It includes descriptions of various parameters and requirements.
+  # It includes for example how to use this role and other information to take in account
   ```
 
 - `@requirements`: Lists the requirements for using the Ansible Role. Each requirement should be on a separate line.
@@ -104,14 +104,14 @@ In this example, the `defaults/main.yml` file contains special comment tags that
   # Python 3.6+
   ```
 
-- `@param`: Defines parameters for the Ansible Role. Each parameter tag includes a parameter name, default value, and a description. The parameter description can span multiple lines and uses Markdown format.
+- `@param`: Defines parameters for the Ansible Role. The name of the parameter and it's default value are taken from the actual configuration. This can span multiple lines and uses Markdown format.
 
   Example:
   ```
   # @param
   #   This is an example parameter description.
-  ExampleParam1: Default value for ExampleParam1.
+  example_param1: 'Default value for example_param1'
   # @param
   #   This is another parameter description.
-  ExampleParam2: Default value for ExampleParam2.
+  example_param2: 'Default value for example_param2'
   ```
