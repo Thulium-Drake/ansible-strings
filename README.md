@@ -24,7 +24,7 @@ To use this script, follow these steps:
 3. After running the script, a `README.md` file will be generated in the same directory.
 
 ## Example File
-Below is an example of a `defaults/main.yml` file with the special comment tags used by this script:
+Below is an example of a `defaults/main.yml` file with the special comment tags used by this script, you can see the result [here](EXAMPLE.md).
 
 ```yaml
 ---
