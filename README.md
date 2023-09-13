@@ -6,6 +6,9 @@ documentation in Markdown format.
 
 Developed with Chat-GPT 3.5 :robot:
 
+Please note that this script was made a as PoC to try out this method of generating
+documentation. A proper version (made by human hands) is still under development!
+
 ## Usage
 To use this script, follow these steps:
 
